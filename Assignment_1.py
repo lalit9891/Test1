@@ -1,5 +1,6 @@
-# Test1
-Module 2: Basic Python Concepts - Assignment 1
+#Test1
+
+
 E1= input("Enter the first number: ")
 E2= input("Enter the second number: ")
 
@@ -16,8 +17,7 @@ print("Substraction: ", F2)
 print("Multiplication: ", F3)
 print("Division: ", F4)
 
-
-# Test2
+# Test 2
 
 E1 = input ("Enter your first Name: ")
 E2= input ("Enter your last Name: ")
