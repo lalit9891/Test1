@@ -1,29 +1,22 @@
-# Test1
-Module 2: Basic Python Concepts - Assignment 1
-E1= input("Enter the first number: ")
-E2= input("Enter the second number: ")
+#Task 1 checking if the number is even or odd
 
-E1 = int(E1)
-E2 = int (E2)
+operand_1=int(input("Enter a number: "))
+if operand_1 % 2 ==0:
+    print(f"{operand_1} is an even number")
 
-F1=(E1+E2)
-F2=(E1-E2)
-F3=(E1*E2)
-F4=(E1/E2)
+elif operand_1 % 2 |0:
+    print(f"{operand_1} is an odd number")
 
-print("Addition: ", F1)
-print("Substraction: ", F2)
-print("Multiplication: ", F3)
-print("Division: ", F4)
+else:
+    print("none")
 
+# Task 2 Sum of Integers from 1 to 50 Using a Loop
 
-# Test2
+a = 0
 
-E1 = input ("Enter your first Name: ")
-E2= input ("Enter your last Name: ")
+for i in range(1,51):
+    a += i
 
-E1 = str (E1)
-E2 = str (E2)
+print(f"The sum of numbers from 1 to 50 is: {a}")
 
-print("Hello, ", E1,"", E2+"!", " Welcome to the Python program")
 
