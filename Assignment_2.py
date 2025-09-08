@@ -1,3 +1,4 @@
+
 #Task 1 checking if the number is even or odd
 
 operand_1=int(input("Enter a number: "))
@@ -18,5 +19,11 @@ for i in range(1,51):
     a += i
 
 print(f"The sum of numbers from 1 to 50 is: {a}")
+
+
+
+
+
+
 
 

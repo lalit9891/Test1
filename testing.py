@@ -1,5 +1,23 @@
-#print (max(5,14,0,1,55))
-#print(min(55,45,5,7,2))
-print(pow(5,2))
+
+'''
+a = range(0,11,2)
+
+for i in a:
+    print(i)
+
+'''
+
+#while loop
+
+counter = 1
+
+while counter <=5:
+    print("apple")
+    counter = counter +1
+
+
+
+
+
 
 
